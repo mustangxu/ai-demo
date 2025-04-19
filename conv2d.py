@@ -7,7 +7,7 @@ from mpmath.libmp import normalize
 from numpy.ma.core import min_val, max_val
 from torchvision.transforms.v2.functional import to_pil_image
 
-img_path = './image.jpg'
+img_path = './data/image.jpg'
 img_pil = Image.open(img_path)
 
 img_np = img_pil.convert('RGB')
